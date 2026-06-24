@@ -1,0 +1,177 @@
+VEHICLE RENTAL SYSTEM - SAMPLE OUTPUT
+
+╔══════════════════════════════════════════════╗
+║     VEHICLE RENTAL SYSTEM                   ║
+╚══════════════════════════════════════════════╝
+
+Database connected:
+jdbc:mysql://localhost:3306/vehicle_rental_db
+
+Database tables initialized.
+
+---
+
+## CREATING VEHICLES
+
+Vehicle added: Car [CAR001]
+Vehicle added: Car [CAR002]
+Vehicle added: Bike [BIK001]
+Vehicle added: Electric Car [ECA001]
+Vehicle added: Truck [TRK001]
+
+---
+
+## REGISTERING CUSTOMERS
+
+Customer registered: Arjun Kumar [CUST001]
+Customer registered: Priya Sharma [CUST002]
+Customer registered: Vikram Singh [CUST003]
+
+---
+
+## RENTING VEHICLES
+
+Car [CAR001] rented to customer CUST001
+
+RENTAL RECEIPT
+
+Record ID    : REC1001
+Vehicle      : Car [CAR001]
+Customer     : CUST001
+Duration     : 5 days
+Total Cost   : ₹8250.00
+
+Electric Car [ECA001] rented to customer CUST002
+
+RENTAL RECEIPT
+
+Record ID    : REC1002
+Vehicle      : Electric Car [ECA001]
+Customer     : CUST002
+Duration     : 3 days
+Total Cost   : ₹5940.00
+
+Truck [TRK001] rented to customer CUST003
+
+RENTAL RECEIPT
+
+Record ID    : REC1003
+Vehicle      : Truck [TRK001]
+Customer     : CUST003
+Duration     : 2 days
+Total Cost   : ₹8400.00
+
+Bike [BIK001] rented to customer CUST001
+
+RENTAL RECEIPT
+
+Record ID    : REC1004
+Vehicle      : Bike [BIK001]
+Customer     : CUST001
+Duration     : 7 days
+Total Cost   : ₹5000.00
+
+---
+
+## EXCEPTION HANDLING DEMO
+
+Vehicle [CAR001] is not available for rent.
+
+Return date must be after pickup date.
+
+Customer with ID [CUST999] not found.
+
+---
+
+## RETURN VEHICLE
+
+Car [CAR001] returned by CUST001
+
+---
+
+## QUICKSORT - VEHICLES BY RATE
+
+BIK001  Royal Enfield Bullet   ₹700/day
+CAR002  Hyundai Creta          ₹1200/day
+CAR001  Toyota Camry           ₹1500/day
+ECA001  Tesla Model 3          ₹2000/day
+TRK001  Tata Prima             ₹3000/day
+
+---
+
+## MIN HEAP
+
+Cheapest Available Vehicle:
+Hyundai Creta - ₹1200/day
+
+---
+
+## BINARY SEARCH
+
+Search ₹1500/day
+Result Index: 2 (Toyota Camry)
+
+---
+
+## GRAPH BFS
+
+Shortest Path:
+
+Madurai
+Chennai
+Bangalore
+Hyderabad
+
+---
+
+## POLYMORPHISM DEMO
+
+Toyota Camry           : ₹11550.00
+Hyundai Creta          : ₹8400.00
+Tesla Model 3          : ₹13860.00
+Royal Enfield Bullet   : ₹5000.00
+Tata Prima             : ₹29400.00
+
+---
+
+## CUSTOMER RENTAL HISTORY
+
+Customer: Arjun Kumar
+
+REC1001 - CAR001
+REC1004 - BIK001
+
+Customer: Priya Sharma
+
+REC1002 - ECA001
+
+---
+
+## AVAILABLE VEHICLES
+
+CAR002 - Hyundai Creta
+CAR001 - Toyota Camry
+
+---
+
+## DATABASE RECORDS
+
+REC1001  CAR001  CUST001  8250.00
+REC1002  ECA001  CUST002  5940.00
+REC1003  TRK001  CUST003  8400.00
+REC1004  BIK001  CUST001  5000.00
+
+---
+
+## REVENUE BY VEHICLE TYPE
+
+Car            : ₹8250.00
+Electric Car   : ₹5940.00
+Truck          : ₹8400.00
+Bike           : ₹5000.00
+
+---
+
+## PROJECT COMPLETED SUCCESSFULLY
+
+Vehicle Rental System demo complete.
